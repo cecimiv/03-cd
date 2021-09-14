@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
    res.statusCode = 200;
    res.setHeader('Content-Type', 'application/json');
-   res.end(JSON.stringify(payload("Glenn", "Bech", 45, "DevOps")));
+   res.end(JSON.stringify(payload("Cecilie", "Iversen", 45, "DevOps")));
  });
 
  server.listen(port,  () => {
